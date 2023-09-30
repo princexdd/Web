@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR-Code-Generator</title>
+</head>
+<body>
+
+    <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+
+    <div class="container">
+        <p>Enter your text or URL</p>
+        <input type="text" placeholder="Text or URL" id="qrText">
+
+        <div id="imgBox">
+            <img src="" id="qrImage">
+        </div>
+        <button onclick="generateQR()">Generate QR Code</button>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+  
+        <p>
+         Created by
+          <a href="https://www.linkedin.com/in/raghvendra-pratap-singh-017808229" target="_blank"
+            >Raghvendra <i class="fab fa-linkedin"></i
+          ></a>
+        </p>
+      </footer>
+</body>
+</html>
